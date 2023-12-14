@@ -1,0 +1,47 @@
+/* Add your custom styles here */
+body {
+  background-color: rgb(43, 192, 197);
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+header {
+  background-color: #dc3545; /* Use Bootstrap red color for header background */
+  color: #28a745; /* Use Bootstrap green color for header text */
+  text-align: center;
+  padding: 15px;
+}
+
+.weather-data {
+  margin: 20px 0;
+}
+
+.col-xxl-3,
+.col-xxl-9 {
+  padding: 15px;
+}
+
+.current-weather {
+  background-color: #ffc107; /* Use Bootstrap yellow color for current weather background */
+  color: #000; /* Use black text for better contrast */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.days-forecast .card {
+  background-color: #28a745; /* Use Bootstrap green color for forecast card background */
+  color: #fff; /* Use white text for better visibility */
+  margin-bottom: 20px;
+}
+
+.days-forecast .card-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.days-forecast .card-text {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
